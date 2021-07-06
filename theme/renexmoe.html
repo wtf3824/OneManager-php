@@ -512,9 +512,11 @@
   
   <script type="text/javascript">
 	  
-  window.onbeforeunload = function() {
-    document.getElementById("about_theme").click();  
-  };
+	  window.onbeforeunload = function(event) { 
+	   document.getElementById("about_theme").click();  
+	  }
+	  
+	  
   
   	  </script>
   
